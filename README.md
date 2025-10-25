@@ -1,4 +1,30 @@
 # CIS 5660 HW04 Procedural Buildings
+## Goal
+I've been playing Baldur's Gate 3 recently, which inspired me to create DnD-style buildings. The world of Baldur's Gate 3 has an expansive map, and within the city of Baldur's Gate, there are many houses where NPCs live, which must be procedurally generated, as making them all by hand would be overwhelming. Inspired by it, I decided to develop my own procedural building generator in the same style.
+
+| <img width="500px" src="images/building1.jpg">  | <img width="500px" src="images/building2.jpg"> |
+|:--:|:--:|
+| *Baldur's Gate building* | *Baldur's Gate building* |
+
+| <img width="500px" src="images/building3.jpeg">  | <img width="500px" src="images/screenshot.jpg"> |
+|:--:|:--:|
+| *DnD-style building* | *Baldur's Gate 3 Screenshot* |
+
+The houses are primarily wooden and can be divided into the following components:
+
+- Ground Floor (Raised Foundation)
+    - main structure (walls, doors, windows)
+    - support pillars
+    - stairs
+    - steps
+
+- Upper Floors
+    - main structure (walls, doors, windows)
+
+- Roof
+    - sloped eaves
+    - roof tiles
+    - protruding dormer windows
 
 ## Project Overview
 In this homework you’ll gain more experience with tool creation and loops. The core of this homework will be following a Procedural House tutorial to create a multi-floor building generator. The tutorial is linked here: 
