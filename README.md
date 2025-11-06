@@ -1,4 +1,11 @@
 # CIS 5660 HW04 Procedural Buildings
+
+[![Demo](images/part1-1.png)](images/demo.mp4)
+Click the image to watch the video demo!
+
+## Project Overview
+This project is a Houdini procedural building generator based on the tutorial: https://www.youtube.com/watch?v=uIe97023sDk&t=979s&ab_channel=SimonHoudini 
+
 ## Goal
 I've been playing Baldur's Gate 3 recently, which inspired me to create DnD-style buildings. The world of Baldur's Gate 3 has an expansive map, and within the city of Baldur's Gate, there are many houses where NPCs live, which must be procedurally generated, as making them all by hand would be overwhelming. Inspired by it, I decided to develop my own procedural building generator in the same style.
 
@@ -25,26 +32,6 @@ The houses are primarily wooden and can be divided into the following components
     - sloped eaves
     - roof tiles
     - protruding dormer windows
-
-## Project Overview
-In this homework you’ll gain more experience with tool creation and loops. The core of this homework will be following a Procedural House tutorial to create a multi-floor building generator. The tutorial is linked here: 
-https://www.youtube.com/watch?v=uIe97023sDk&t=979s&ab_channel=SimonHoudini 
-
-## Part 0: Setup and Planning 
-### SideFX Labs 
-The tutorial requires some nodes from SideFX Labs. If you haven’t already installed it, you can do so at the “Labs/Packages” tab of the Houdini Launcher.  
-
-### Project Planning
-Before you begin on this project, skim through the tutorial and then pick a building type/style you’d like to emulate (either from photos or concept art). You should watch the entirety of the tutorial  before committing to a style so you can pick something that is manageable and will be achievable using the techniques in the tutorial.  
-Of course, you’re welcome to adapt the setup to support additional logic/features to match your style, and particularly complex additions could merit extra credit :) On the other hand, if you’re newer to Houdini and want to stick relatively close to the tutorial, that’s okay too. Just be sure to think through what changes your chosen buildings will require (additional assets? different placement logic?) before diving into the project so you don’t bite off more than you can chew.  
-Make sure the include the reference you select in your README, and don’t forget to credit your sources.  
-Here are a few examples of possible building styles that could be a decent fit for inspiration:
-CIS 5660 HW03 Procedural Building 1 
-https://www.behance.net/gallery/23773965/ISOBuilding-concept-art 
-
-https://polycount.com/discussio 
-low-poly-building
-https://www.artstation.com/artwork/m6xYy 
 
 ## Part 1: Box Stacking HDA
 First, start by following the tutorial to make a simple HDA that stacks boxes on each other.  Important note about HDA creation:  
