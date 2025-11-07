@@ -1,7 +1,7 @@
 # CIS 5660 HW04 Procedural Buildings
 
 ## Demo Video
-[![Watch the video](images/output1.png)](images/demo.mp4)
+[Link to demo](https://drive.google.com/file/d/1EyNB3rLCQMwLwRM7QWjuLmMCN_ixBmkG/view?usp=drive_link)
 
 ## Project Overview
 This project is a Houdini procedural building generator based on the tutorial: https://www.youtube.com/watch?v=uIe97023sDk&t=979s&ab_channel=SimonHoudini  
